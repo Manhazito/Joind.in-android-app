@@ -52,8 +52,7 @@ public class Main extends JIActivity implements SearchView.OnQueryTextListener {
 
         initialiseTabs();
     }
-
-
+    
     protected void initialiseTabs() {
         tabHost = (FragmentTabHost) findViewById(R.id.tabHost);
         tabHost.setup(this, getSupportFragmentManager(), android.R.id.tabcontent);
